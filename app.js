@@ -1,7 +1,7 @@
 // Game Parameters
 const PADDLE_WIDTH = 0.1; // as a fraction of the screen width
-const PADDLE_SPEED = 0.7; // fraction of screen width per second -> it will cross 50% of the screen in 1s
-const BALL_SPEED = 0.65; // fraction of screen height per second
+const PADDLE_SPEED = 0.6; // fraction of screen width per second -> it will cross 50% of the screen in 1s
+const BALL_SPEED = 0.55; // fraction of screen height per second
 const BALL_SPIN = 0.2; // ball deflection of the paddle 0 == no spin, 1 == high spin
 const WALL = 0.02; // wall-ball-paddle size as a fraction of the shortest screen dimension
 const BRICK_ROWS = 8; // starting number of brick rows
